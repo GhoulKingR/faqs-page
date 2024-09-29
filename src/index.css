@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: WorkSansBold;
+    src: url(/fonts/static/WorkSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: WorkSansSemiBold;
+    src: url(/fonts/static/WorkSans-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: WorkSansRegular;
+    src: url(/fonts/static/WorkSans-Regular.ttf);
+}
+
+.ws_bold {
+    font-family: WorkSansBold;
+}
+
+.ws_semi_bold {
+    font-family: WorkSansSemiBold;
+}
+
+.ws_regular {
+    font-family: WorkSansRegular;
+}
+
+html {
+    background-color: #f9f0ff;
+}
+
+.my-shadow {
+    box-shadow: 0 32px 56px 0 rgba(80, 0, 118, .1);
+}
